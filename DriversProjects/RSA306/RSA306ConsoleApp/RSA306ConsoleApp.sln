@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSA306ConsoleApp", "RSA306ConsoleApp\RSA306ConsoleApp.vcxproj", "{3A6C199F-BF7C-4D40-A9F8-AEE36668AD6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSA306Api", "..\RSA306Api\RSA306Api\RSA306Api.vcxproj", "{10592C68-CA5D-4D41-B38D-7B8179B58BDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A6C199F-BF7C-4D40-A9F8-AEE36668AD6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A6C199F-BF7C-4D40-A9F8-AEE36668AD6B}.Debug|Win32.Build.0 = Debug|Win32
+		{3A6C199F-BF7C-4D40-A9F8-AEE36668AD6B}.Release|Win32.ActiveCfg = Release|Win32
+		{3A6C199F-BF7C-4D40-A9F8-AEE36668AD6B}.Release|Win32.Build.0 = Release|Win32
+		{10592C68-CA5D-4D41-B38D-7B8179B58BDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10592C68-CA5D-4D41-B38D-7B8179B58BDC}.Debug|Win32.Build.0 = Debug|Win32
+		{10592C68-CA5D-4D41-B38D-7B8179B58BDC}.Release|Win32.ActiveCfg = Release|Win32
+		{10592C68-CA5D-4D41-B38D-7B8179B58BDC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
