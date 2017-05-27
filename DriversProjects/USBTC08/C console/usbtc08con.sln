@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{BBCE694A-9D46-46B6-A506-A80E4A4E56A3}") = "usbtc08con", "usbtc08con.vcxproj", "{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Debug|Win32.Build.0 = Debug|Win32
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Debug|x64.ActiveCfg = Debug|x64
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Debug|x64.Build.0 = Debug|x64
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Release|Win32.ActiveCfg = Release|Win32
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Release|Win32.Build.0 = Release|Win32
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Release|x64.ActiveCfg = Release|x64
+		{9A53D7E4-9FB1-485F-94E0-3F1445D6D557}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
