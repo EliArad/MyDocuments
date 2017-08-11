@@ -1,0 +1,9 @@
+obj-m := gpiok.o
+
+KERNELDIR := /home/adsteam/buildroot/BBB/buildroot-2017.05.1/output/build/linux-c17b3de1577dd4e223ee6cc923a1d22b3e1e261b
+
+all:
+	make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-  -C $(KERNELDIR) M=$(PWD) modules
+	
+clean:
+	rm -rf *.o *~ core .depend .*.cmd *.ko *.mod.c .tmp_versions
