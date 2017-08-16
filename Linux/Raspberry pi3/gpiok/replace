@@ -1,0 +1,1 @@
+sudo sshpass -p "eliarad"   scp  gpiok.ko   root@10.0.0.21:/home
