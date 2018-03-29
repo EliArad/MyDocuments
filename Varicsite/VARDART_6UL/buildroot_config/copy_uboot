@@ -1,0 +1,10 @@
+sudo cp output/build/uboot-9d1e12e401d811734a276188bbf145d8cc96968b/SPL      output/images
+sudo cp output/build/uboot-9d1e12e401d811734a276188bbf145d8cc96968b/SPL.log  output/images
+
+sudo  sshpass -p 'sheep3628290'    dd if=output/images/SPL of=/dev/sd$1 bs=1K seek=1; sync
+sudo sshpass -p 'sheep3628290'  dd if=output/images/u-boot.img of=/dev/sd$1 bs=1K seek=69; sync
+
+sudo sshpass -p 'sheep3628290'  mount /dev/sd$11  /mnt/VARBOOT
+sudo sshpass -p 'sheep3628290'   mount /dev/sd$12  /mnt/VARROOTFS
+
+sudo sshpass -p 'sheep3628290'   cp output/images/imx6ull-var-dart-sd_emmc.dtb /mnt/VARBOOT/
